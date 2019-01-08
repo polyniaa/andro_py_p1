@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Idea fair simple android game
+edited simple android game
 @author: Chris Minar
 game entry point
 """
