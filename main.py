@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-edited simple android game
+edited by me simple android game
 @author: Chris Minar
 game entry point
 """
