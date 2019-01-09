@@ -4,8 +4,8 @@ Idea fair simple android game
 @author: Chris Minar
 game object
 """
-import pygame_sdl2
-pygame_sdl2.import_as_pygame()
+#import pygame_sdl2
+#pygame_sdl2.import_as_pygame()
 import pygame
 
 class game_object():

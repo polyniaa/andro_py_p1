@@ -5,8 +5,8 @@ Idea fair simple android game
 game engine class
 """
 
-import pygame_sdl2
-pygame_sdl2.import_as_pygame()
+#import pygame_sdl2
+#pygame_sdl2.import_as_pygame()
 import pygame
 from game_object import game_object as go
 import time
@@ -60,8 +60,8 @@ class game_engine():
             if (event.type == pygame.MOUSEBUTTONDOWN) and event.button == 1:
                 self.objects[0].jump()
             #If the key pressed is the android back button, kill the program
-            elif event.type == pygame.K_AC_BACK:
-                self.done = True
+#            elif event.type == pygame.K_AC_BACK:
+#                self.done = True
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
                     self.done = True
